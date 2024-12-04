@@ -4,10 +4,9 @@ import java.util.*;
 import java.io.*;
 
 public class Menu {
-    private static IDXFile idxFile;
+    private IDXFile idxFile;
     
     public Menu() {
-        this.idxFile = new IDXFile("devlog.txt");
     }
 
     public void start() {
@@ -18,7 +17,8 @@ public class Menu {
             String command = scanner.nextLine().trim().toLowerCase();
             switch (command) {
                 case "create":
-                    this.handleCreate();
+                    this.handleCreate(scanner);
+                    break;
                 case "open":
                     this.handleOpen();
                 case "insert":
@@ -39,7 +39,16 @@ public class Menu {
         scanner.close();
     }
 
-    public void handleCreate() {
+    public void handleCreate(Scanner scanner) {
+        System.out.println("Enter file path: ");
+        String pathname = scanner.nextLine();
+        
+        try {
+            this.idxFile = new IDXFile(pathname, scanner, true);
+            System.out.println("Index file opened.");
+        } catch (IOException e) {
+            System.out.println("Error opening file: " + e.getMessage());
+        }
 
     }
     public void handleOpen() {

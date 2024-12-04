@@ -5,4 +5,7 @@ After I want to refactor the B-tree implementation I've created before-hand to w
 
 # Dec. 3, 2024 2:40 AM
 I created the basic skeletons of each of the classes required for managing the files and running the menu. 
-Next session I want to implement the handle functions in Menu and start creating interactions between Meny and IDXFile. 
+Next session I want to implement the handle functions in Menu and start creating interactions between Menu and IDXFile. 
+
+# Dec. 3, 2024 1:11 PM
+I want to finish implementing the handle functions, create basic functions for create a node in the IDXFile, and refactor my B-tree code to work with a min-deg of 10. 
