@@ -1,0 +1,35 @@
+commit f0258fc9e8586271e598420159f7925578657d45
+Author: Srinivas <srinivas.devarajugettu@gmail.com>
+Date:   Sun Dec 8 22:57:48 2024 -0600
+
+    Insertion Implemented
+
+commit d15b9a568e4bc53a6fe5583e45ff4ca52912bf7a
+Author: Srinivas <srinivas.devarajugettu@gmail.com>
+Date:   Tue Dec 3 23:20:52 2024 -0600
+
+    Implemented File Creation
+
+commit 0791f257e8359c059b3d28aaf067a16d4cda0a9c
+Author: Srinivas <srinivas.devarajugettu@gmail.com>
+Date:   Tue Dec 3 02:45:26 2024 -0600
+
+    Updated Readme
+
+commit 435e62c737693d860b2699ed8201c81d5eb3a07f
+Author: Srinivas <srinivas.devarajugettu@gmail.com>
+Date:   Tue Dec 3 02:42:24 2024 -0600
+
+    Created Menu & IDXFile
+
+commit 1502fd468fb7aea8534f01d567b08258dfae1b14
+Author: Srinivas <126125647+Srindeva@users.noreply.github.com>
+Date:   Tue Dec 3 00:57:36 2024 -0600
+
+    Created devlog.md
+
+commit a9ff8a0a53bc3388824ab0d1d8215c200366ffbc
+Author: Srinivas <126125647+Srindeva@users.noreply.github.com>
+Date:   Tue Dec 3 00:48:46 2024 -0600
+
+    Initial commit
