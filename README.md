@@ -1,5 +1,5 @@
 # CS-4348
-# Project 1
+# Project 1 - Logger, Encryption, Driver
 
 To use the program.
 ```
@@ -25,7 +25,7 @@ java Encryption
 | ```Encryption.java``` | Used to encrypt and decrypt text using a Vigenere cipher |
 | ```Log.txt``` | Stores user's command history |
 
-# Project 2
+# Project 2 - Bank Simulation
 To compile and run the program use...
 ```
 java Bank.java
@@ -38,7 +38,7 @@ java Bank.java
 | ```Customer.java``` | stores customer information/requests transaction |
 | ```Teller.java``` | stores teller information & handles customer withdraw/deposit requests |
 
-# Project 3
+# Project 3 - Index File Implemetation (B-tree)
 To run the program navigate to the directory (make sure you are not compiling the program while in the working directory of the package 'project3').
 
 To compile the files in the package.
